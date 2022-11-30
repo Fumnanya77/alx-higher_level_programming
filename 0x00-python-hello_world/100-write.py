@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-import os
-os.system("~/alx-higher_level_programming/0x00-python-hello_world/dora")
+import sys
+sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")

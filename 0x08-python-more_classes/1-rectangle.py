@@ -7,14 +7,14 @@ class Rectangle(object):
 
     def __init__(self, width=0, height=0):
         """ Defining the rectangle.
-            
-		The attributes are width and rectangle
 
-		Args:
+        The attributes are width and rectangle
+
+        Args:
             width(int): the size of the rectangle
-			height(int): the other side of the shape
+            height(int): the other side of the shape
 
-    """
+        """
 
         self.__width = width
         self.__height = height
@@ -25,7 +25,7 @@ class Rectangle(object):
 
     @width.setter
     def width(self, value):
-        if isinstance(value, int) == False:
+        if isinstance(value, int) is False:
             raise TypeError("width must be an integer")
         else:
             self.__width = value
@@ -40,7 +40,7 @@ class Rectangle(object):
 
     @height.setter
     def height(self, value):
-        if isinstance(value, int) == False:
+        if isinstance(value, int) is False:
             raise TypeError("height must be an integer")
         else:
             self.__height = value

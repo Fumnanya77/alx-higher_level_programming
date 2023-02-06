@@ -7,5 +7,5 @@
 
 def lookup(obj):
     """ A function that prints the directory of a class """
-    lup = print(dir(obj))
+    lup = dir(obj)
     return lup

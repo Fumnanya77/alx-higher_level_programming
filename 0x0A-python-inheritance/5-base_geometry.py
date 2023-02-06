@@ -2,5 +2,5 @@
 """ An empty module sort of """
 
 
-class BaseGeometry:
+class BaseGeometry():
     pass

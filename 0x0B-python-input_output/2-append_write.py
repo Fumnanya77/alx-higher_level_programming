@@ -5,8 +5,8 @@
 def append_write(filename="UTF8", text=""):
     """ This appends to a `file`.
 
-    This `function` should not overwrite an existing `file`, and should create a
-    new `file` if not existing.
+    This `function` should not overwrite an existing `file`, and should
+    create a new `file` if not existing.
 
     args:
         filename: The `file` to be written to

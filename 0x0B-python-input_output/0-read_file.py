@@ -3,7 +3,12 @@
 
 
 def read_file(filename="UTF8"):
-    """ This `function` reads a `file` using `with`to enable closin. """
-    with open(filename,'r', encoding="utf-8") as _file:
+    """ This `function` reads a `file` using `with`to enable closing
+
+    args:
+        filename: The name of the `file` that would be read
+    """
+    with open(filename, 'r', encoding="utf-8") as _file:
         file_read = _file.read()
         print(file_read)
+    return file_read

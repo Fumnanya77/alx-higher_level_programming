@@ -1,0 +1,37 @@
+The ``0-add_integer`` module
+======================
+
+Using ``add_integer``
+-------------------
+
+This is an example text file in reStructuredText format.  First import
+``0-add_integer`` from the ``add_integer`` module:
+
+
+>>> add_integer = __import__('0-add_integer').add_integer
+>>> add_integer(2, 5)
+7
+
+>>> add_integer(-7, 2)
+-5
+
+>>> add_integer("John", "Mary")
+'a must be an integer'
+
+>>> add_integer(None)
+'a must be an integer'
+
+>>> add_integer(-100, -598)
+-698
+
+>>> add_integer(45, 90.8)
+135
+
+>>> add_integer(55.654, 33.67)
+88
+
+>>> add_integer("Father", 56)
+'a must be an integer'
+
+>>> add_integer(43, "Mother")
+'b must be an integer'

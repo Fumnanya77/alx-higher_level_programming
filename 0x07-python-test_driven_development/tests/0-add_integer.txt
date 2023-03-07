@@ -22,10 +22,20 @@ TypeError: a must be an integer
 >>> add_integer(55.654, 33.67)
 88
 
->>> add_integer("Father", 56)
-Traceback (innermost last):
-TypeError: a must be an integer
-
 >>> add_integer(43, "Mother")
 Traceback (most recent call last):
 TypeError: b must be an integer
+
+>>> add_integer(65)
+163
+
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
+
+>>> add_integer(6745352884.75624435217, 577387374.354623234432)
+7322740258
+
+>>> add_integer(2+6i, 55)
+Traceback (innermost last):
+TypeError: input must be a real number

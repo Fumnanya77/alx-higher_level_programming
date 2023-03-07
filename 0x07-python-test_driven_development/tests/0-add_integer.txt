@@ -31,7 +31,7 @@ TypeError: b must be an integer
 
 >>> add_integer()
 Traceback (most recent call last):
-TypeError: add_integer() missing 1 positional argument: 'a'
+TypeError: add_integer() missing 1 required positional argument: 'a'
 
 >>> add_integer(6745352884.75624435217, 577387374.354623234432)
 7322740258

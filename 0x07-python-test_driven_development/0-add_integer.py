@@ -18,5 +18,5 @@ def add_integer(a, b=98):
         else:
             b = int(b)
     else:
-        raise TypeError("add_integer() missing 1 required argument: 'a'")
+        raise TypeError("add_integer() missing 1 required positional argument: 'a'")
     return(a + b)

@@ -1,2 +1,2 @@
 -- Create a database if not missing
-CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] hbtn_0c_0
+CREATE {DATABASE | SCHEMA} [IF NOT EXISTS] hbtn_0c_0;

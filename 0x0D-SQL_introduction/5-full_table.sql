@@ -1,2 +1,2 @@
 -- List the tables in the provided database
-SHOW FULL TABLE first_table;
+SHOW FULL COLUMNS FROM first_table;

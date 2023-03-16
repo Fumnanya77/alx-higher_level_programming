@@ -1,3 +1,3 @@
 -- list with conditions
-SELECT score, name FROM second_table WHERE name IS NOT NULL
-ORDER BY score, name DESC;
+SELECT * FROM second_table WHERE name IS NOT NULL
+ORDER BY name, score DESC;

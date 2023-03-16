@@ -3,4 +3,5 @@
 
 
 class BaseGeometry():
-    pass
+    def __init__():
+        pass

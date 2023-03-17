@@ -1,2 +1,3 @@
 -- joining tables without the word join
-SELECT * FROM cities WHERE state_id IN (SELECT * FROM states WHERE name = "california");
+USE hbtn_0d_usa;
+SELECT * FROM hbtn_0d_usa.cities WHERE state_id IN (SELECT * FROM hbtn_0d_usa.states WHERE name = "california");
